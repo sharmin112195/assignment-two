@@ -5,6 +5,58 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings:
-      "slnt" 0;
+    
   }
+
+  /* shared styles */
+
+  .display-flex{
+    display: flex;
+  } 
+
+/* navbar related styles */
+
+  .navbar{
+justify-content: space-between;
+max-width: 1170px;
+margin: 0 auto;
+
+  }
+
+  .nav-link{
+    text-decoration: none;
+    margin-right: 30px;
+  }
+
+  .nav-links{
+    text-align: center;
+    border: 0.5px solid rgba(0, 0, 0, 0.418);
+    border-radius: 30px;
+    height: 30px;
+    align-items: center;
+ 
+  }
+
+  /* color style */
+
+   .text-white{
+    color: #FFFFFF;
+  } 
+
+  .text-primary{
+   color: #E6533C;
+   
+  }
+
+  .inter-font{
+    /* background-colo: #11111109; */
+  }
+.bg-dark{
+    background-color: #191919cc;
+}
+
+.Home{
+    background-color: #E6533C;
+padding: 3px;
+  border-radius: 30px;
+}
