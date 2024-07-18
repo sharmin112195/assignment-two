@@ -88,8 +88,8 @@ margin: 0 auto;
   grid-template-columns: repeat(2, 1fr)
 }
 .heading-one{
-  position: relative;
-  top: 150px;
+  /* position: relative;
+  top: 150px; */
 }
 .shape style{
   font-style: ;
@@ -98,6 +98,7 @@ margin: 0 auto;
 
 .stay-healthy{
   color: #FFFFFF;
+  font-size: 55px;
 
 }
 
@@ -136,10 +137,11 @@ margin: 0 auto;
 .heading-one{
 text-align: center;
 align-items: center;
+
 }
 
 .free-workout{
-  background-color: rgba(0, 0, 0, 0.077);
+  background-color: rgba(0, 0, 0, 0.238);
   width: 30%;
   height: 20%px;
   text-align: center;
@@ -165,7 +167,7 @@ align-items: center;
 
 .video-tutorial{
 
-  background-color: rgba(0, 0, 0, 0.077);
+  background-color: rgba(0, 0, 0, 0.238);
   width: 30%;
   height: 20%px;
   text-align: center;
