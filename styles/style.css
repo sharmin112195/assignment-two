@@ -132,7 +132,6 @@ align-items: center;
 
 .free-workout{
   background-color: rgba(0, 0, 0, 0.077);
-  color: #FFFFFF;
   width: 30%;
   height: 20%px;
   text-align: center;
@@ -143,4 +142,24 @@ align-items: center;
   left: 53%;
 
   
+}
+
+.card{
+  color: #FFFFFF;
+}
+.Workout{
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.video-tutorial{
+
+  background-color: rgba(0, 0, 0, 0.077);
+  width: 30%;
+  height: 20%px;
+  text-align: center;
+  border-radius: 12px;
+  padding: 3px;
+  position: absolute;
+  bottom: 10%;
+  right: 82%;
 }
