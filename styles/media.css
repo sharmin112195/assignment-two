@@ -13,4 +13,18 @@
     .hamburger-menu{
         display: block;
     }
+
+    .get-body{
+        /* grid-template-columns: repeat(1, 1fr); */
+        flex-direction: column;
+      
+    }
+    .video-tutorial{
+        bottom: 30%;
+        right: 58%;
+    }
+    .free-workout{
+        top: 12%;
+  left: 52%
+    }
 }
