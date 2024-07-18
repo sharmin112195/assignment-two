@@ -186,3 +186,85 @@ align-items: center;
   bottom: 98px;
   right: 70px;
 }
+
+/* teams section start */
+
+.banner-section-all{
+  background-color: rgba(0, 0, 0, 0.904);
+}
+
+
+.teams-section{
+  text-align: center;
+}
+.banner-title{
+  color: #FFFFFF;
+}
+
+.banner-description{
+  color:  rgba(255, 255, 255, 0.5);
+}
+
+
+.movement-description{
+ text-align: center;
+}
+
+.movement-img{
+  border-radius: 50%;
+}
+.movement{
+  color: #FFFFFF;
+}
+
+.description-1{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+.time-description{
+  text-align: center;
+}
+.time-img{
+  border-radius: 50%;
+}
+.time{
+  color: #FFFFFF;
+}
+
+.description-2{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.practice-description{
+  text-align: center;
+}
+
+.practice-img{
+  border-radius: 50%;
+}
+
+.practice{
+  color: #FFFFFF;
+
+}
+
+.description-3{
+color: rgba(255, 255, 255, 0.5);
+}
+
+.weight-loss-description{
+  text-align: center;
+}
+
+.weightloss-img{
+  border-radius: 50%;
+}
+
+.weight-loss{
+  color: #FFFFFF;
+}
+
+.description-4{
+  color: rgba(255, 255, 255, 0.5);
+}
