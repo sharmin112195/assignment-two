@@ -72,6 +72,7 @@ padding: 3px;
   display: flex;
 max-width: 1170px;
 margin: 0 auto;
+
 }
 
 .hamburger-menu{
@@ -84,6 +85,7 @@ margin: 0 auto;
 
 .shape style{
   font-style: ;
+
 }
 
 .stay-healthy{
@@ -111,4 +113,34 @@ margin: 0 auto;
   color: #FFFFFF;
   border-radius: 30px;
   height: 2.5rem; 
+}
+
+.image-one{
+
+position: relative;
+}
+.image{
+  width: 500px;
+  height: 600px;
+  margin-right: 120px;
+}
+
+.heading-one{
+text-align: center;
+align-items: center;
+}
+
+.free-workout{
+  background-color: rgba(0, 0, 0, 0.077);
+  color: #FFFFFF;
+  width: 30%;
+  height: 20%px;
+  text-align: center;
+  border-radius: 12px;
+  padding: 3px;
+  position: absolute;
+  top: 23%;
+  left: 53%;
+
+  
 }
