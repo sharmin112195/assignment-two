@@ -80,3 +80,35 @@ margin: 0 auto;
 
 
 }
+/* get body */
+
+.shape style{
+  font-style: ;
+}
+
+.stay-healthy{
+  color: #FFFFFF;
+
+}
+
+.paragraph-1{
+  color: rgba(255, 255, 255, 0.5) ;
+}
+
+.btn-one{
+  background-color: #E6533C;
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 30px;
+  height: 2.5rem;
+  border: 1px solid #E6533C;
+
+}
+
+.btn-two{
+    border: 1px solid white;
+  background-color: #19191920; 
+  color: #FFFFFF;
+  border-radius: 30px;
+  height: 2.5rem; 
+}
