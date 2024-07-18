@@ -83,6 +83,14 @@ margin: 0 auto;
 }
 /* get body */
 
+.get-body{
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+}
+.heading-one{
+  position: relative;
+  top: 150px;
+}
 .shape style{
   font-style: ;
 
@@ -117,7 +125,7 @@ margin: 0 auto;
 
 .image-one{
 
-position: relative;
+ position: relative; 
 }
 .image{
   width: 500px;
@@ -151,6 +159,10 @@ align-items: center;
   color: rgba(255, 255, 255, 0.65);
 }
 
+.tutorial-contact{
+  display: flex;
+}
+
 .video-tutorial{
 
   background-color: rgba(0, 0, 0, 0.077);
@@ -162,4 +174,16 @@ align-items: center;
   position: absolute;
   bottom: 10%;
   right: 82%;
+}
+.raund{
+  height: 35px;
+  width: 35px;
+  background-color: #E6533C;
+  border-radius: 50%;
+  position: relative;
+  bottom: 98px;
+  right: 70px;
+
+
+ 
 }
