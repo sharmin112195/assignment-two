@@ -27,4 +27,8 @@
         top: 12%;
   left: 52%
     }
+
+    .exercise{
+        flex-direction: column;
+    }
 }

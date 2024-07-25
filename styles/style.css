@@ -196,6 +196,7 @@ align-items: center;
 
 .teams-section{
   text-align: center;
+ 
 }
 .banner-title{
   color: #FFFFFF;
@@ -205,6 +206,13 @@ align-items: center;
   color:  rgba(255, 255, 255, 0.5);
 }
 
+
+.exercise{
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+ justify-content: center;
+}
 
 .movement-description{
  text-align: center;
@@ -267,4 +275,42 @@ color: rgba(255, 255, 255, 0.5);
 
 .description-4{
   color: rgba(255, 255, 255, 0.5);
+}
+
+/* run an extra section */
+
+
+.Run-section{
+  display: flex;
+  justify-content: center;
+  margin-top:40px ;
+  gap: 30%;
+  
+  
+}
+.run-img{
+  width: 250px;
+  height: 200px;
+  border-radius: 20px;
+
+}
+
+.run{
+  color: #FFFFFF; 
+}
+.description-5{
+  color: rgba(255, 255, 255, 0.5); 
+}
+.run-btn{
+  width: 150px;
+  height: 30px;
+  border-radius: 30px;
+  color: #FFFFFF;
+  background-color: #E6533C;
+}
+
+/* Training and exercise */
+/* .trainings-img{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); */
 }
