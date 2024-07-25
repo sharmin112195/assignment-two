@@ -314,3 +314,94 @@ color: rgba(255, 255, 255, 0.5);
   display: grid;
   grid-template-columns: repeat(3, 1fr); */
 }
+
+/* Trainings and Exercises */
+
+.Trainings-section{
+
+}
+
+.trainings{
+  color: #FFFFFF;
+}
+
+
+.training-part{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* .trainings-img{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px; */
+ 
+}
+
+.trainings-img1{
+  display: flex;
+}
+.trainings-img2{
+  display: flex;
+}
+.exercise1{
+  width: 250px;
+  height: 150px;
+  background-color:  rgba(6, 255, 210, 0.5);
+}
+
+.training1{
+  color: #000000;
+
+
+}
+ .exercise2{
+  width: 350px;
+  height: 150px;
+ }
+.training2{
+  color: #FFFFFF;
+}
+
+.exercise3{
+  width: 280px;
+  height: 150px;
+ }
+.training3{
+  color: #FFFFFF;
+}
+
+.exercise4{
+  width: 350px;
+  height: 150px;
+ }
+.training4{
+  color: #FFFFFF;
+  position: relative;
+  top: -70%;
+  left: 60%;
+  font-size: 10px
+}
+
+.exercise5{
+  width: 180px;
+  height: 150px;
+ }
+.training5{
+  color: #FFFFFF;
+  position: relative;
+  top: -25%;
+  left: 10%;
+  font-size: 10px
+}
+
+.exercise6{
+  width: 310px;
+  height: 150px;
+ 
+ }
+.training6{
+  color: #FFFFFF;
+  position: relative;
+  top: -25%;
+  font-size: 10px;
+}
