@@ -5,6 +5,10 @@
         align-items: center;
 
     }
+
+    /* .inter-font{
+        max-width: 100%;
+    } */
     
     .nav-links{
         margin-top: 10px;
@@ -31,4 +35,12 @@
     .exercise{
         flex-direction: column;
     }
+
+    .Run-section{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    
 }
