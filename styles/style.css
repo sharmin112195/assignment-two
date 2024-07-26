@@ -530,3 +530,62 @@ margin-top: 20px;
   border: none;
   font-size: 15px;
 }
+
+/* Team Section Start */
+
+.team-heading{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.team-heading-1{
+  color: #FFFFFF;
+}
+
+.team-description{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.all-trainer{
+   display: flex;
+   flex-wrap: wrap; 
+  justify-content: space-between; 
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  background-color: #333333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.team-member{
+  /* text-align: center; */
+  width: 30%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  /* background-color: #333333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   */
+}
+ .trainer-img{
+   width: 60%; 
+  height: 200px;
+  border-radius: 10px;
+ /* margin-left: 45%; */
+
+} 
+.name{
+  color: #FFFFFF;
+   position: relative;
+  top: -25%; 
+  font-size: 10px;
+  margin: 10px 0 5px;
+ 
+}
+.trainer{
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  top: -25%; 
+  font-size: 14px;
+  margin: 0; 
+}
