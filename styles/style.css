@@ -549,31 +549,98 @@ margin-top: 20px;
 .all-trainer{
    display: flex;
    flex-wrap: wrap; 
-  justify-content: space-between; 
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr); */
+   justify-content: space-between;   
   background-color: #333333;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin-left: 10%;
-  margin-right: 10%;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+   margin-left: 10%; 
+   margin-right: 10%;
+   margin-top: 5%; 
+  
+   border-radius: 10px;
+  
 }
-.team-member{
+.team-member1{
   /* text-align: center; */
-  width: 30%;
-  margin-bottom: 20px;
+   width: 32%;
+   margin-bottom: 20px; 
   border-radius: 10px;
-  padding: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+     
+  /* background-color: #333333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   */
+}
+.team-member2{
+  /* text-align: center; */
+   width: 32%;
+   margin-bottom: 20px; 
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 8px; 
+ 
+     
+  /* background-color: #333333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   */
+}
+.team-member3{
+  /* text-align: center; */
+   width: 32%;
+    margin-bottom: 20px;  
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 8px;
+  padding-right: 10px;
+
+  /* background-color: #333333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   */
+}
+.team-member4{
+  /* text-align: center; */
+   width: 32%;
+   margin-bottom: 20px; 
+  border-radius: 10px;
+   /* padding-top: 10px; */
+   padding-left: 10px;
+
+     
+  /* background-color: #333333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   */
+}
+.team-member5{
+  /* text-align: center; */
+   width: 32%;
+   margin-bottom: 20px; 
+  border-radius: 10px;
+  /* padding-top: 10px; */
+  padding-left: 8px; 
+  /* background-color: #333333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   */
+}
+.team-member6{
+  /* text-align: center; */
+   width: 32%;
+   margin-bottom: 20px; 
+  border-radius: 10px;
+   padding-right: 10px;
+   padding-left: 8px;
+   
   /* background-color: #333333;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
    */
 }
  .trainer-img{
-   width: 60%; 
-  height: 200px;
+   width: 100%; 
+  height: 250px;
   border-radius: 10px;
  /* margin-left: 45%; */
 
 } 
+
 .name{
   color: #FFFFFF;
    position: relative;
