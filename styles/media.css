@@ -42,5 +42,13 @@
         text-align: center;
     }
 
-    
+    .BMI-Table{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .bmi-container-all{
+        flex-direction: column;
+        gap: 20px;
+    }
 }

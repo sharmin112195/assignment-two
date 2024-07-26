@@ -317,6 +317,7 @@ color: rgba(255, 255, 255, 0.5);
   border-radius: 30px;
   color: #FFFFFF;
   background-color: #E6533C;
+  border: none;
 }
 
 /* Training and exercise */
@@ -448,6 +449,16 @@ color: rgba(255, 255, 255, 0.5);
   color: #FFFFFF;
 }
 
+.bmi-containers{
+  box-shadow: rgba(255, 255, 255, 0.165)
+}
+
+.bmi-container-all{
+  display: flex;
+  background-color: #333333;
+  justify-content: space-around;
+}
+
 .bmi-description{
   color: rgba(255, 255, 255, 0.5); 
 }
@@ -471,4 +482,51 @@ table{
 
 .tbody{
   color: rgba(255, 255, 255, 0.5);
+}
+
+
+.BMI-Calculator-container{
+  background-color: #333333;
+}
+.bmi-h-3{
+  color: #FFFFFF;
+}
+
+.bmi-description-3{
+  color: rgba(255, 255, 255, 0.5); 
+}
+
+.container{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+ grid-template-rows: repeat(2, 50px) 40px;
+margin-top: 20px;
+  
+}
+.box{
+  color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ /* text-align: center; */
+ padding: 20px;
+ border-radius: 10px;
+ border: none;
+
+}
+
+#box-5{ 
+   grid-column: span 2; 
+}
+
+.button-container{
+ margin-top: 20px;
+}
+.bmi-button{
+  background-color: #E6533C;
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 20px;
+  border: none;
+  font-size: 15px;
 }
