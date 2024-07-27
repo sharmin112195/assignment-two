@@ -668,6 +668,9 @@ margin-top: 20px;
 
  .footer-content{
   background-color: #191919cc;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
  }
  .text{
   /* text-align: center; */
@@ -686,11 +689,14 @@ margin-top: 20px;
  }
  .text-headers{
   color: #FFFFFF;
-  font-size: 20px;
+   font-size: 16px;
  }
  .text-contents{
   color: rgba(255, 255, 255, 0.5);
-  font-size: 15px;
-  list-style: none;
+   font-size: 12px;
  
+  
+ }
+ .list{
+  
  }
