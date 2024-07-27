@@ -90,22 +90,6 @@ margin: 0 auto;
   display: grid
   grid-template-columns: repeat(2, 1fr);
 }
-.heading-one{
-  /* position: relative;
-  top: 150px; */
-}
-
-/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); */
-
-/* .shape style{
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-style: normal;
-  
-}
-.shape style{
-  font-style: italic;
-} */
 
 .stay-healthy{
   color: #FFFFFF;
@@ -371,7 +355,7 @@ color: rgba(255, 255, 255, 0.5);
 .exercise1{
   width: 150px;
   height: 150px;
-  filter: sepia(100%) 
+  /* filter: sepia(100%)  */
 }
 
 .training1{
@@ -526,9 +510,16 @@ margin-top: 20px;
 
 }
 
-#box-5{ 
-   grid-column: span 2; 
+.box i{
+  position: absolute;
+   left: 87%; 
+  
 }
+#box-5{ 
+   grid-column: span 2;
+  
+}
+
 
 .button-container{
  margin-top: 20px;
@@ -682,7 +673,7 @@ margin-top: 20px;
   /* background-color: #191919cc; */
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 50px;
  }
  .text{
   /* text-align: center; */
@@ -713,7 +704,7 @@ margin-top: 20px;
  
 
  .hr{
-  color: rgba(255, 255, 255, 0.5);
+  color: #333333;
   margin-left: 20px;
   margin-right: 20px;
  }
