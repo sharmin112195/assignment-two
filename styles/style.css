@@ -173,7 +173,7 @@ align-items: center;
   bottom: 10%;
   right: 82%;
 }
-.raund{
+ .raund{
   height: 35px;
   width: 35px;
   background-color: #E6533C;
@@ -181,7 +181,8 @@ align-items: center;
   position: relative;
   bottom: 98px;
   right: 70px;
-}
+  
+} 
 
 /* teams section start */
 
@@ -355,9 +356,9 @@ color: rgba(255, 255, 255, 0.5);
 .exercise1{
   width: 150px;
   height: 150px;
-  /* filter: sepia(100%)  */
+  filter: opacity(50%); 
 }
-
+  
 .training1{
   color: #000000;
   position: relative;
@@ -370,7 +371,7 @@ color: rgba(255, 255, 255, 0.5);
   width: 350px;
   height: 150px;
 
-  filter: 
+  filter: ;
   
  }
 .training2{
@@ -383,6 +384,7 @@ color: rgba(255, 255, 255, 0.5);
 .exercise3{
   width: 180px;
   height: 150px;
+  filter: opacity(30%);
  }
 .training3{
   color: #FFFFFF;
@@ -407,6 +409,7 @@ color: rgba(255, 255, 255, 0.5);
 .exercise5{
   width: 180px;
   height: 150px;
+  filter: sepia(200%);
  }
 .training5{
   color: #FFFFFF;
@@ -419,6 +422,7 @@ color: rgba(255, 255, 255, 0.5);
 .exercise6{
   width: 240px;
   height: 150px;
+  
  
  }
 .training6{
@@ -429,7 +433,7 @@ color: rgba(255, 255, 255, 0.5);
 }
  .row{
  justify-content: center;
- margin-left: 18%;
+ margin-left: 20%;
  margin-top: 8%;
 } 
 

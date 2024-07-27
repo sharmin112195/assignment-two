@@ -1,7 +1,7 @@
 
 @media screen and (max-width: 576px) {
 
-   
+  
     .navbar {
         /* flex-direction: column; */
         align-items: center;
@@ -13,6 +13,7 @@
         /* margin-left: block;
         margin-right: block; */
         margin: 0 auto;
+       
     } 
     
     .nav-links{
@@ -27,15 +28,29 @@
         /* grid-template-columns: repeat(1, 1fr); */
         flex-direction: column;
       
+      
     }
     .video-tutorial{
         bottom: 30%;
         right: 58%;
+       
     }
+
+    .raund{
+        height: 2.5rem;
+        width: 2.5rem; 
+        background-color: #E6533C;
+        border-radius: 50%;
+        position: absolute;
+         left: 65px;
+        top: 56%;
+        
+      } 
     .free-workout{
         top: 12%;
   left: 52%
     }
+    
 
     .exercise{
         flex-direction: column;
@@ -45,6 +60,10 @@
         flex-direction: column;
         gap: 20px;
         text-align: center;
+    }
+    .row{
+        margin: 0 auto;
+        padding-top: 30px;
     }
     .Trainings-section{
         text-align: center;
