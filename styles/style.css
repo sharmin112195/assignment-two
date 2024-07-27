@@ -10,6 +10,9 @@
     
   }
 
+  .inter-font{
+    background-color: rgba(0, 0, 0, 0.904); 
+  }
   /* shared styles */
 
   .display-flex{
@@ -198,12 +201,12 @@ align-items: center;
 
 .banner-section-all{
   background-color: rgba(0, 0, 0, 0.904);
-}
+} 
 
 
 .teams-section{
   text-align: center;
- 
+  padding-top: 20px;
 }
 .banner-title{
   color: #FFFFFF;
