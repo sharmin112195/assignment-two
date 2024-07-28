@@ -164,7 +164,7 @@ align-items: center;
 .video-tutorial{
 
   background-color: rgba(0, 0, 0, 0.238);
-  width: 30%;
+  width: 35%;
   height: 20%px;
   text-align: center;
   border-radius: 12px;
@@ -189,14 +189,14 @@ align-items: center;
   background-color: #E6533C;
   border-radius: 50%;
   position: absolute;
-   left: -70px;
+   left: -80px;
   top: 77.5%;
   
 } 
 .icons-1{
   color: #FFFFFF;
   position: absolute;
-  left: -55px;
+  left: -65px;
   top: 79%;
 }
 
