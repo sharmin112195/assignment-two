@@ -127,7 +127,7 @@ margin: 0 auto;
 .image{
   width: 500px;
   height: 600px;
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 
 .heading-one{
@@ -278,7 +278,7 @@ color: rgba(255, 255, 255, 0.5);
   text-align: center;
 }
 
-.weightloss-img{
+.weight-loss-img{
   border-radius: 50%;
 }
 
