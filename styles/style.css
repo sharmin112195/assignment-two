@@ -521,8 +521,8 @@ margin-top: 20px;
   
 }
 .box{
-  color: rgba(255, 255, 255, 0.5);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     color: rgba(255, 255, 255, 0.5);   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
  /* text-align: center; */
  padding: 20px;
  border-radius: 10px;
@@ -530,14 +530,25 @@ margin-top: 20px;
 
 }
 
-.box i{
+.select-box i{
   position: absolute;
-   left: 87%; 
+   left: 70%; 
   
 }
+.select-box{
+  background-color: rgba(128, 128, 128, 0.005);
+  color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+}
+
 #box-5{ 
    grid-column: span 2;
-  
+   background-color: rgba(128, 128, 128, 0.005);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 
